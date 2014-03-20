@@ -1,0 +1,80 @@
+[0m[[0minfo[0m] [0mRunning cluster.Main [0m
+[0m[[0mdebug[0m] [0mStarting sandboxed run...[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/akka-clustering/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.sbt/boot/scala-2.10.2/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/jars/akka-contrib_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/bundles/akka-remote_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/io.netty/netty/bundles/netty-3.6.6.Final.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/bundles/akka-cluster_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/jars/scalabuff-runtime_2.10-1.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-kernel_2.10/jars/akka-kernel_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.fusesource/sigar/jars/sigar-1.6.4.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/log4j/log4j/jars/log4j-1.2.15.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/com.amazonaws/aws-java-sdk/jars/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.9.jar[0m
+[0m[[0mdebug[0m] [0m	/home/bryan/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.9.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
+[0m[[31merror[0m] [0m(run-main) java.lang.NullPointerException[0m
+java.lang.NullPointerException
+	at akka.actor.ActorSystem$Settings.<init>(ActorSystem.scala:128)
+	at akka.actor.ActorSystemImpl.<init>(ActorSystem.scala:470)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:111)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:104)
+	at cluster.Init.<init>(Main.scala:54)
+	at cluster.Main$.main(Main.scala:89)
+	at cluster.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.Run.invokeMain(Run.scala:72)
+	at sbt.Run.run0(Run.scala:65)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:54)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:58)
+	at sbt.TrapExit$.sbt$TrapExit$$executeMain$1(TrapExit.scala:33)
+	at sbt.TrapExit$$anon$1.run(TrapExit.scala:42)
+[0m[[0mdebug[0m] [0m	Thread run-main exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1628)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1628)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1628)
+	at sbt.Defaults$.toError(Defaults.scala:34)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:647)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:645)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code: 1[0m
