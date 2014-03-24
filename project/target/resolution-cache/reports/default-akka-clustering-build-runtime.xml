@@ -9,15 +9,26 @@
 		extra-scalaVersion="2.10"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140324010459"/>
+		date="20140324142413"/>
 	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-sbt-plugin">
+			<revision name="2.2.1" status="release" pubdate="20130904091416" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="9">
+				<metadata-artifact status="no" details="" size="1443" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.1/ivys/ivy.xml"/>
+				<caller organisation="default" name="akka-clustering-build" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="akka-sbt-plugin" type="jar" ext="jar" status="no" details="" size="60833" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/jars/akka-sbt-plugin-2.2.1.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.1/jars/akka-sbt-plugin.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.github.mpeltonen" name="sbt-idea">
-			<revision name="1.5.2" status="release" pubdate="20131013090137" resolver="public" artresolver="public" homepage="http://your.project.url" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+			<revision name="1.5.2" status="release" pubdate="20131013090137" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://your.project.url" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="1937" time="416" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/ivy-1.5.2.xml" searched="true" original-local-location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.5.2/sbt-idea-1.5.2.pom"/>
+				<metadata-artifact status="no" details="" size="2986" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.5.2/sbt-idea-1.5.2.pom"/>
 				<caller organisation="default" name="akka-clustering-build" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="sbt-idea" type="jar" ext="jar" status="successful" details="" size="336778" time="1064" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.5.2.jar">
+					<artifact name="sbt-idea" type="jar" ext="jar" status="no" details="" size="336778" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.5.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.5.2/sbt-idea-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -35,22 +46,22 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-plugin">
-			<revision name="2.3.0" status="release" pubdate="20130728125143" resolver="typesafe-ivy-releases" artresolver="typesafe-ivy-releases" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="true" searched="true" default="false" conf="default(compile), compile" position="2">
-				<metadata-artifact status="successful" details="" size="1438" time="193" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.3.0.xml" searched="true" original-local-location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.3.0.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.3.0/ivys/ivy.xml"/>
+			<revision name="2.3.0" status="release" pubdate="20130728125143" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+				<metadata-artifact status="no" details="" size="1438" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.3.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="akka-clustering-build" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="sbteclipse-plugin" type="jar" ext="jar" status="successful" details="" size="8222" time="283" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.3.0.jar">
+					<artifact name="sbteclipse-plugin" type="jar" ext="jar" status="no" details="" size="8222" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.3.0.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.3.0/jars/sbteclipse-plugin.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-core">
-			<revision name="2.3.0" status="release" pubdate="20130728125143" resolver="typesafe-ivy-releases" artresolver="typesafe-ivy-releases" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="true" searched="true" default="false" conf="default(compile), compile" position="3">
-				<metadata-artifact status="successful" details="" size="1482" time="240" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.3.0.xml" searched="true" original-local-location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.3.0.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.3.0/ivys/ivy.xml"/>
+			<revision name="2.3.0" status="release" pubdate="20130728125143" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+				<metadata-artifact status="no" details="" size="1482" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.3.0/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.sbteclipse" name="sbteclipse-plugin" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="2.3.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="sbteclipse-core" type="jar" ext="jar" status="successful" details="" size="262730" time="586" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.3.0.jar">
+					<artifact name="sbteclipse-core" type="jar" ext="jar" status="no" details="" size="262730" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.3.0.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.3.0/jars/sbteclipse-core.jar"/>
 					</artifact>
 				</artifacts>
@@ -82,37 +93,36 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.10.1" status="release" pubdate="20130312190420" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
-				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
-         "/>
-				<metadata-artifact status="successful" details="" size="1939" time="361" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom"/>
+			<revision name="2.10.1" status="release" pubdate="20130312190420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2392" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom"/>
 				<caller organisation="org.scalaz" name="scalaz-effect_2.10" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.2"/>
 				<caller organisation="org.scalaz" name="scalaz-core_2.10" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.2"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="7137903" time="8812" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7137903" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-atmos">
-			<revision name="0.3.2" status="release" pubdate="20131021141632" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="true" searched="true" default="false" conf="default(compile), compile" position="0">
-				<metadata-artifact status="successful" details="" size="1904" time="598" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/ivy-0.3.2.xml" searched="true" original-local-location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/ivy-0.3.2.xml.original" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-atmos/scala_2.10/sbt_0.13/0.3.2/ivys/ivy.xml"/>
+			<revision name="0.3.2" status="release" pubdate="20131021141632" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="no" details="" size="1904" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/ivy-0.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-atmos/scala_2.10/sbt_0.13/0.3.2/ivys/ivy.xml"/>
 				<caller organisation="default" name="akka-clustering-build" conf="compile, runtime" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="sbt-atmos" type="jar" ext="jar" status="successful" details="" size="154337" time="1346" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/jars/sbt-atmos-0.3.2.jar">
+					<artifact name="sbt-atmos" type="jar" ext="jar" status="no" details="" size="154337" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/jars/sbt-atmos-0.3.2.jar">
 						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-atmos/scala_2.10/sbt_0.13/0.3.2/jars/sbt-atmos.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.aspectj" name="aspectjtools">
-			<revision name="1.7.3" status="release" pubdate="20130621201804" resolver="public" artresolver="public" homepage="http://www.aspectj.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="1.7.3" status="release" pubdate="20130621201804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
-				<metadata-artifact status="successful" details="" size="1021" time="370" location="/root/.ivy2/cache/org.aspectj/aspectjtools/ivy-1.7.3.xml" searched="true" original-local-location="/root/.ivy2/cache/org.aspectj/aspectjtools/ivy-1.7.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/aspectj/aspectjtools/1.7.3/aspectjtools-1.7.3.pom"/>
+				<metadata-artifact status="no" details="" size="2366" time="0" location="/root/.ivy2/cache/org.aspectj/aspectjtools/ivy-1.7.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/aspectj/aspectjtools/1.7.3/aspectjtools-1.7.3.pom"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-atmos" conf="compile" rev="1.7.3" rev-constraint-default="1.7.3" rev-constraint-dynamic="1.7.3" callerrev="0.3.2"/>
 				<artifacts>
-					<artifact name="aspectjtools" type="jar" ext="jar" status="successful" details="" size="9934446" time="9927" location="/root/.ivy2/cache/org.aspectj/aspectjtools/jars/aspectjtools-1.7.3.jar">
+					<artifact name="aspectjtools" type="jar" ext="jar" status="no" details="" size="9934446" time="0" location="/root/.ivy2/cache/org.aspectj/aspectjtools/jars/aspectjtools-1.7.3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/aspectj/aspectjtools/1.7.3/aspectjtools-1.7.3.jar"/>
 					</artifact>
 				</artifacts>

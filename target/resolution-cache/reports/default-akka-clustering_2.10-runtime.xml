@@ -7,15 +7,15 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-trace-compile, atmos-trace-test, atmos-dev, atmos-console, atmos-weave, atmos-sigar"
-		date="20140324010534"/>
+		date="20140324132525"/>
 	<dependencies>
 		<module organisation="com.amazonaws" name="aws-java-sdk">
-			<revision name="1.4.2.1" status="release" pubdate="20130419211848" resolver="public" artresolver="public" homepage="https://aws.amazon.com/sdkforjava" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+			<revision name="1.4.2.1" status="release" pubdate="20130419211848" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
 				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
-				<metadata-artifact status="successful" details="" size="6252" time="358" location="/root/.ivy2/cache/com.amazonaws/aws-java-sdk/ivy-1.4.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.amazonaws/aws-java-sdk/ivy-1.4.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="4871" time="0" location="/root/.ivy2/cache/com.amazonaws/aws-java-sdk/ivy-1.4.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="1.4.2.1" rev-constraint-default="1.4.2.1" rev-constraint-dynamic="1.4.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="aws-java-sdk" type="jar" ext="jar" status="successful" details="" size="9835294" time="10422" location="/root/.ivy2/cache/com.amazonaws/aws-java-sdk/jars/aws-java-sdk-1.4.2.1.jar">
+					<artifact name="aws-java-sdk" type="jar" ext="jar" status="no" details="" size="9835294" time="0" location="/root/.ivy2/cache/com.amazonaws/aws-java-sdk/jars/aws-java-sdk-1.4.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -89,73 +89,76 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource" name="sigar">
-			<revision name="1.6.4" status="release" pubdate="20110322150456" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="16">
-				<metadata-artifact status="successful" details="" size="1262" time="562" location="/root/.ivy2/cache/org.fusesource/sigar/ivy-1.6.4.xml" searched="true" original-local-location="/root/.ivy2/cache/org.fusesource/sigar/ivy-1.6.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom"/>
+			<revision name="1.6.4" status="release" pubdate="20110322150456" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="2973" time="0" location="/root/.ivy2/cache/org.fusesource/sigar/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="sigar" type="jar" ext="jar" status="successful" details="" size="428580" time="963" location="/root/.ivy2/cache/org.fusesource/sigar/jars/sigar-1.6.4.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar"/>
+					<artifact name="sigar" type="jar" ext="jar" extra-classifier="" status="no" details="" size="428580" time="0" location="/root/.ivy2/cache/org.fusesource/sigar/jars/sigar-1.6.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="sigar" type="jar" ext="jar" extra-classifier="native" status="successful" details="" size="375188" time="2694" location="/root/.ivy2/cache/org.fusesource/sigar/jars/sigar-1.6.4-native.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4-native.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="log4j" name="log4j">
-			<revision name="1.2.15" status="release" pubdate="20070830134116" resolver="public" artresolver="public" homepage="http://logging.apache.org:80/log4j/1.2/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+			<revision name="1.2.15" status="release" pubdate="20070830134116" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org:80/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="17780" time="435" location="/root/.ivy2/cache/log4j/log4j/ivy-1.2.15.xml" searched="true" original-local-location="/root/.ivy2/cache/log4j/log4j/ivy-1.2.15.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom"/>
+				<metadata-artifact status="no" details="" size="3525" time="0" location="/root/.ivy2/cache/log4j/log4j/ivy-1.2.15.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom"/>
 				<caller organisation="org.fusesource" name="sigar" conf="default, compile, runtime, master" rev="1.2.15" rev-constraint-default="1.2.15" rev-constraint-dynamic="1.2.15" callerrev="1.6.4"/>
 				<artifacts>
-					<artifact name="log4j" type="jar" ext="jar" status="successful" details="" size="391834" time="740" location="/root/.ivy2/cache/log4j/log4j/jars/log4j-1.2.15.jar">
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="391834" time="0" location="/root/.ivy2/cache/log4j/log4j/jars/log4j-1.2.15.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828134954" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+			<revision name="2.2.1" status="release" pubdate="20130828134954" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2520" time="392" location="/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3029" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="successful" details="" size="14484" time="391" location="/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.2.1.jar">
+					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="no" details="" size="14484" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="ch.qos.logback" name="logback-classic">
-			<revision name="1.0.7" status="release" pubdate="20120823181347" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+			<revision name="1.0.7" status="release" pubdate="20120823181347" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
-				<metadata-artifact status="successful" details="" size="12751" time="529" location="/root/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.7.xml" searched="true" original-local-location="/root/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom"/>
+				<metadata-artifact status="no" details="" size="10066" time="0" location="/root/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="1.0.7" rev-constraint-default="1.0.7" rev-constraint-dynamic="1.0.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="logback-classic" type="jar" ext="jar" status="successful" details="" size="251679" time="828" location="/root/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.7.jar">
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="251679" time="0" location="/root/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="ch.qos.logback" name="logback-core">
-			<revision name="1.0.7" status="release" pubdate="20120823181302" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
+			<revision name="1.0.7" status="release" pubdate="20120823181302" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
-				<metadata-artifact status="successful" details="" size="6329" time="396" location="/root/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.7.xml" searched="true" original-local-location="/root/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom"/>
+				<metadata-artifact status="no" details="" size="9604" time="0" location="/root/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom"/>
 				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.0.7" rev-constraint-default="1.0.7" rev-constraint-dynamic="1.0.7" callerrev="1.0.7"/>
 				<artifacts>
-					<artifact name="logback-core" type="jar" ext="jar" status="successful" details="" size="364399" time="716" location="/root/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.7.jar">
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="364399" time="0" location="/root/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.2" status="release" pubdate="20121011145524" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
-				<metadata-artifact status="successful" details="" size="2689" time="461" location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
+			<revision name="1.7.2" status="release" pubdate="20121011145524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<metadata-artifact status="no" details="" size="4469" time="0" location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
 				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="1.0.7"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="26083" time="394" location="/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar">
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26083" time="0" location="/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -168,61 +171,61 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-kernel_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828134927" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+			<revision name="2.2.1" status="release" pubdate="20130828134927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2541" time="372" location="/root/.ivy2/cache/com.typesafe.akka/akka-kernel_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-kernel_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="2995" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-kernel_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="akka-kernel_2.10" type="jar" ext="jar" status="successful" details="" size="14430" time="377" location="/root/.ivy2/cache/com.typesafe.akka/akka-kernel_2.10/jars/akka-kernel_2.10-2.2.1.jar">
+					<artifact name="akka-kernel_2.10" type="jar" ext="jar" status="no" details="" size="14430" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-kernel_2.10/jars/akka-kernel_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-contrib_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828135601" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="2.2.1" status="release" pubdate="20130828135601" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3052" time="406" location="/root/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3564" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="akka-contrib_2.10" type="jar" ext="jar" status="successful" details="" size="404621" time="769" location="/root/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/jars/akka-contrib_2.10-2.2.1.jar">
+					<artifact name="akka-contrib_2.10" type="jar" ext="jar" status="no" details="" size="404621" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/jars/akka-contrib_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-cluster_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828135514" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+			<revision name="2.2.1" status="release" pubdate="20130828135514" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3412" time="388" location="/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3741" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-contrib_2.10" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="akka-cluster_2.10" type="bundle" ext="jar" status="successful" details="" size="962252" time="1435" location="/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/bundles/akka-cluster_2.10-2.2.1.jar">
+					<artifact name="akka-cluster_2.10" type="bundle" ext="jar" status="no" details="" size="962252" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/bundles/akka-cluster_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10">
-			<revision name="1.2.0" status="release" pubdate="20130506154930" resolver="public" artresolver="public" homepage="https://github.com/SandroGrzicic/ScalaBuff" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+			<revision name="1.2.0" status="release" pubdate="20130506154930" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/SandroGrzicic/ScalaBuff" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
 				<license name="Apache" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1804" time="376" location="/root/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/ivy-1.2.0.xml" searched="true" original-local-location="/root/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/ivy-1.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/root/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-cluster_2.10" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="scalabuff-runtime_2.10" type="jar" ext="jar" status="successful" details="" size="19948" time="400" location="/root/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/jars/scalabuff-runtime_2.10-1.2.0.jar">
+					<artifact name="scalabuff-runtime_2.10" type="jar" ext="jar" status="no" details="" size="19948" time="0" location="/root/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/jars/scalabuff-runtime_2.10-1.2.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-remote_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828135138" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+			<revision name="2.2.1" status="release" pubdate="20130828135138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3664" time="392" location="/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3755" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-cluster_2.10" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-contrib_2.10" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="akka-remote_2.10" type="bundle" ext="jar" status="successful" details="" size="1269820" time="1724" location="/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/bundles/akka-remote_2.10-2.2.1.jar">
+					<artifact name="akka-remote_2.10" type="bundle" ext="jar" status="no" details="" size="1269820" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/bundles/akka-remote_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -241,25 +244,25 @@
 			</revision>
 		</module>
 		<module organisation="com.google.protobuf" name="protobuf-java">
-			<revision name="2.4.1" status="release" pubdate="20110706153342" resolver="public" artresolver="public" homepage="http://code.google.com/p/protobuf" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+			<revision name="2.4.1" status="release" pubdate="20110706153342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
 				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="7309" time="398" location="/root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
+				<metadata-artifact status="no" details="" size="2948" time="0" location="/root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
 				<caller organisation="net.sandrogrzicic" name="scalabuff-runtime_2.10" conf="compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="1.2.0"/>
 				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="protobuf-java" type="jar" ext="jar" status="successful" details="" size="450279" time="974" location="/root/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar">
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="450279" time="0" location="/root/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.6.6.Final" status="release" pubdate="20130515022624" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+			<revision name="3.6.6.Final" status="release" pubdate="20130515022624" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="26204" time="407" location="/root/.ivy2/cache/io.netty/netty/ivy-3.6.6.Final.xml" searched="true" original-local-location="/root/.ivy2/cache/io.netty/netty/ivy-3.6.6.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom"/>
+				<metadata-artifact status="no" details="" size="6425" time="0" location="/root/.ivy2/cache/io.netty/netty/ivy-3.6.6.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="3.6.6.Final" rev-constraint-default="3.6.6.Final" rev-constraint-dynamic="3.6.6.Final" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="netty" type="bundle" ext="jar" status="successful" details="" size="1206119" time="1467" location="/root/.ivy2/cache/io.netty/netty/bundles/netty-3.6.6.Final.jar">
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1206119" time="0" location="/root/.ivy2/cache/io.netty/netty/bundles/netty-3.6.6.Final.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar"/>
 					</artifact>
 				</artifacts>
@@ -278,27 +281,27 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-testkit_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828134933" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+			<revision name="2.2.1" status="release" pubdate="20130828134933" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2331" time="377" location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="2877" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom"/>
 				<caller organisation="default" name="akka-clustering_2.10" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="akka-testkit_2.10" type="bundle" ext="jar" status="successful" details="" size="238512" time="588" location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.1.jar">
+					<artifact name="akka-testkit_2.10" type="bundle" ext="jar" status="no" details="" size="238512" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
-			<revision name="2.2.1" status="release" pubdate="20130828134634" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+			<revision name="2.2.1" status="release" pubdate="20130828134634" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1908" time="356" location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="2638" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-kernel_2.10" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="2.2.1"/>
 				<artifacts>
-					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="successful" details="" size="2657624" time="3515" location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.1.jar">
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2657624" time="0" location="/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar"/>
 					</artifact>
 				</artifacts>

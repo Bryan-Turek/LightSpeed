@@ -4,6 +4,8 @@ version := "0.1"
 
 scalaVersion := "2.10.2"
 
+//jvmOptions in MultiJvm := "-Djava.library.path=/sigar" :: Nil
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-contrib" % "2.2.1",
   "com.typesafe.akka" %% "akka-testkit" % "2.2.1",

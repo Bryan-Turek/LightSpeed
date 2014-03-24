@@ -17,6 +17,7 @@ import com.amazonaws.services.opsworks.model.DescribeInstancesRequest
 import com.amazonaws.services.opsworks.model.Instance
 import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory
+//import org.fusesource.lmdbjni.Env
 
 
 class Init extends Bootable {

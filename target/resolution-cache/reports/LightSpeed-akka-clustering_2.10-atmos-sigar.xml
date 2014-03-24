@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="LightSpeed"
+		module="akka-clustering_2.10"
+		revision="0.1"
+		conf="atmos-sigar"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-trace-compile, atmos-trace-test, atmos-dev, atmos-console, atmos-weave, atmos-sigar"
+		date="20140324142431"/>
+	<dependencies>
+		<module organisation="com.typesafe.atmos" name="atmos-sigar-libs">
+			<revision name="1.3.1" status="release" pubdate="20131001115510" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="2245" time="0" location="/root/.ivy2/cache/com.typesafe.atmos/atmos-sigar-libs/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom"/>
+				<caller organisation="LightSpeed" name="akka-clustering_2.10" conf="atmos-sigar" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="atmos-sigar-libs" type="jar" ext="jar" status="no" details="" size="2099397" time="0" location="/root/.ivy2/cache/com.typesafe.atmos/atmos-sigar-libs/jars/atmos-sigar-libs-1.3.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
