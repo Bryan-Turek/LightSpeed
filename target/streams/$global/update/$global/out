@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-clustering_2.10;0.1 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a2a0763[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a866f3a[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
@@ -17,24 +17,63 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-contrib_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-contrib_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-contrib_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-contrib_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-contrib_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-contrib_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-contrib_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-contrib_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-contrib_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-contrib_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-contrib_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-contrib_2.10;2.2.1!akka-contrib_2.10.pom(pom.original) (406ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-contrib_2.10/2.2.1/jars/akka-contrib_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-contrib_2.10/2.2.1/jars/akka-contrib_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-contrib_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-contrib_2.10;2.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-contrib_2.10;2.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-contrib_2.10;2.2.1->com.typesafe.akka#akka-remote_2.10;2.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.10;2.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-remote_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-remote_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-remote_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-remote_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.2.1!akka-remote_2.10.pom(pom.original) (392ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-contrib_2.10;2.2.1->com.typesafe.akka#akka-remote_2.10;2.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-actor_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-actor_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.2.1!akka-actor_2.10.pom(pom.original) (356ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
@@ -52,16 +91,50 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->io.netty#netty;3.6.6.Final [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty;3.6.6.Final ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.6.6.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.6.6.Final[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.6.6.Final[0m
-[0m[[0mdebug[0m] [0m	found io.netty#netty;3.6.6.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/io.netty/netty/3.6.6.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for io.netty#netty;3.6.6.Final[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/io.netty/netty/3.6.6.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for io.netty#netty;3.6.6.Final[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for io.netty#netty;3.6.6.Final[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom (3.6.6.Final)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.6.6.Final!netty.pom(pom.original) (407ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/io.netty/netty/3.6.6.Final/bundles/netty.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/io.netty/netty/3.6.6.Final/bundles/netty.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.6.6.Final in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->io.netty#netty;3.6.6.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom (2.4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.pom(pom.original) (398ms)[0m
+[0m[[0minfo[0m] [0mResolving com.google#google;1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google#google;1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google#google;1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google#google;1[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.4.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
@@ -93,9 +166,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-contrib_2.10;2.2.1->com.typesafe.akka#akka-cluster_2.10;2.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.10;2.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-cluster_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-cluster_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-cluster_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-cluster_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-cluster_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-cluster_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-cluster_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.2.1!akka-cluster_2.10.pom(pom.original) (388ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-cluster_2.10/2.2.1/bundles/akka-cluster_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-cluster_2.10/2.2.1/bundles/akka-cluster_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-cluster_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-contrib_2.10;2.2.1->com.typesafe.akka#akka-cluster_2.10;2.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.2.1->com.typesafe.akka#akka-remote_2.10;2.2.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.2.1->com.typesafe.akka#akka-remote_2.10;2.2.1 [compile->compile(*)][0m
@@ -104,9 +190,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.2.1->net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0[0m
-[0m[[0mdebug[0m] [0m	found net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.sandrogrzicic/scalabuff-runtime_2.10/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/net.sandrogrzicic/scalabuff-runtime_2.10/1.2.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom (1.2.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0!scalabuff-runtime_2.10.pom(pom.original) (376ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.sandrogrzicic/scalabuff-runtime_2.10/1.2.0/jars/scalabuff-runtime_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/net.sandrogrzicic/scalabuff-runtime_2.10/1.2.0/jars/scalabuff-runtime_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	found net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.2.1->net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
@@ -139,9 +238,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-testkit_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-testkit_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-testkit_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-testkit_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-testkit_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-testkit_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-testkit_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.10;2.2.1!akka-testkit_2.10.pom(pom.original) (377ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-testkit_2.10/2.2.1/bundles/akka-testkit_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-testkit_2.10/2.2.1/bundles/akka-testkit_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-testkit_2.10;2.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-testkit_2.10;2.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)][0m
@@ -156,9 +268,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-kernel_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-kernel_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-kernel_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-kernel_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-kernel_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-kernel_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-kernel_2.10;2.2.1!akka-kernel_2.10.pom(pom.original) (372ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-kernel_2.10/2.2.1/jars/akka-kernel_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-kernel_2.10/2.2.1/jars/akka-kernel_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-kernel_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-kernel_2.10;2.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-kernel_2.10;2.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-kernel_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)][0m
@@ -173,9 +298,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-slf4j_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-slf4j_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-slf4j_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.akka#akka-slf4j_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-slf4j_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom (2.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.10;2.2.1!akka-slf4j_2.10.pom(pom.original) (392ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-slf4j_2.10;2.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.akka#akka-slf4j_2.10;2.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)][0m
@@ -185,9 +323,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.2[0m
-[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-api/1.7.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.slf4j/slf4j-api/1.7.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom (1.7.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.2!slf4j-api.pom(pom.original) (461ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.2 {}[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-parent/1.7.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-parent;1.7.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.slf4j/slf4j-parent/1.7.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.slf4j#slf4j-parent;1.7.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-parent;1.7.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom (1.7.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.2!slf4j-parent.pom(pom.original) (362ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-parent/1.7.2/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.slf4j/slf4j-parent/1.7.2/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-api/1.7.2/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.slf4j/slf4j-api/1.7.2/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [runtime->compile][0m
@@ -199,17 +370,67 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->ch.qos.logback#logback-classic;1.0.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.0.7 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.7[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-classic;1.0.7[0m
-[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/ch.qos.logback/logback-classic/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-classic;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/ch.qos.logback/logback-classic/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for ch.qos.logback#logback-classic;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-classic;1.0.7[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom (1.0.7)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.7!logback-classic.pom(pom.original) (529ms)[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.0.7 {}[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/ch.qos.logback/logback-parent/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-parent;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/ch.qos.logback/logback-parent/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for ch.qos.logback#logback-parent;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-parent;1.0.7[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom (1.0.7)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-parent;1.0.7!logback-parent.pom(pom.original) (372ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/ch.qos.logback/logback-parent/1.0.7/jars/logback-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/ch.qos.logback/logback-parent/1.0.7/jars/logback-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/ch.qos.logback/logback-classic/1.0.7/jars/logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/ch.qos.logback/logback-classic/1.0.7/jars/logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.7 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->ch.qos.logback#logback-classic;1.0.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->ch.qos.logback#logback-classic;1.0.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.7->ch.qos.logback#logback-core;1.0.7 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.0.7 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.7[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.7[0m
-[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a08bd88[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/ch.qos.logback/logback-core/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for ch.qos.logback#logback-core;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/ch.qos.logback/logback-core/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for ch.qos.logback#logback-core;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for ch.qos.logback#logback-core;1.0.7[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom (1.0.7)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-core;1.0.7!logback-core.pom(pom.original) (396ms)[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.0.7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.0.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-parent;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/ch.qos.logback/logback-core/1.0.7/jars/logback-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/ch.qos.logback/logback-core/1.0.7/jars/logback-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.7 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.7->ch.qos.logback#logback-core;1.0.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.7->org.slf4j#slf4j-api;1.6.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.7->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
@@ -224,17 +445,63 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.fusesource#sigar;1.6.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource#sigar;1.6.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource#sigar;1.6.4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource#sigar;1.6.4[0m
-[0m[[0mdebug[0m] [0m	found org.fusesource#sigar;1.6.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.fusesource/sigar/1.6.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.fusesource#sigar;1.6.4[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.fusesource#sigar;1.6.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.fusesource#sigar;1.6.4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom (1.6.4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fusesource#sigar;1.6.4!sigar.pom(pom.original) (562ms)[0m
+[0m[[0minfo[0m] [0mResolving org.fusesource#fusesource-pom;1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource#fusesource-pom;1.5 {}[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.fusesource/fusesource-pom/1.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.fusesource#fusesource-pom;1.5[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.fusesource/fusesource-pom/1.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.fusesource#fusesource-pom;1.5[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.fusesource#fusesource-pom;1.5[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.pom (1.5)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fusesource#fusesource-pom;1.5!fusesource-pom.pom(pom.original) (641ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.fusesource/fusesource-pom/1.5/jars/fusesource-pom.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.fusesource/fusesource-pom/1.5/jars/fusesource-pom.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/fusesource-pom/1.5/fusesource-pom-1.5.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.fusesource/sigar/1.6.4/jars/sigar.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.fusesource/sigar/1.6.4/jars/sigar.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource#sigar;1.6.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.fusesource#sigar;1.6.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.fusesource#sigar;1.6.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource#sigar;1.6.4->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.15 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: log4j#log4j;1.2.15 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: log4j#log4j;1.2.15[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: log4j#log4j;1.2.15[0m
-[0m[[0mdebug[0m] [0m	found log4j#log4j;1.2.15 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/log4j/log4j/1.2.15/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for log4j#log4j;1.2.15[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/log4j/log4j/1.2.15/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for log4j#log4j;1.2.15[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for log4j#log4j;1.2.15[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom (1.2.15)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] log4j#log4j;1.2.15!log4j.pom(pom.original) (435ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/log4j/log4j/1.2.15/jars/log4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/log4j/log4j/1.2.15/jars/log4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar[0m
+[0m[[0mdebug[0m] [0m	found log4j#log4j;1.2.15 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource#sigar;1.6.4->log4j#log4j;1.2.15 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.mail#mail;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.jms#jms;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -250,9 +517,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.amazonaws#aws-java-sdk;1.4.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk;1.4.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk;1.4.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.amazonaws#aws-java-sdk;1.4.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.amazonaws#aws-java-sdk;1.4.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk/1.4.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.amazonaws#aws-java-sdk;1.4.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.amazonaws/aws-java-sdk/1.4.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.amazonaws#aws-java-sdk;1.4.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.amazonaws#aws-java-sdk;1.4.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom (1.4.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk;1.4.2.1!aws-java-sdk.pom(pom.original) (358ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk/1.4.2.1/jars/aws-java-sdk.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.amazonaws/aws-java-sdk/1.4.2.1/jars/aws-java-sdk.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.amazonaws#aws-java-sdk;1.4.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
@@ -719,9 +999,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.9.1 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;1.9.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.10;1.9.1[0m
-[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;1.9.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalatest/scalatest_2.10/1.9.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.scalatest/scalatest_2.10/1.9.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom (1.9.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.pom(pom.original) (376ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scalatest/scalatest_2.10/1.9.1/jars/scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.scalatest/scalatest_2.10/1.9.1/jars/scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;1.9.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.scalatest#scalatest_2.10;1.9.1 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
@@ -731,9 +1028,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-actors;2.10.0[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scala-lang/scala-actors/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.scala-lang/scala-actors/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom (2.10.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-actors;2.10.0!scala-actors.pom(pom.original) (563ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scala-lang/scala-actors/2.10.0/jars/scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.scala-lang/scala-actors/2.10.0/jars/scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
@@ -742,9 +1052,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scala-lang/scala-reflect/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.scala-lang/scala-reflect/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom (2.10.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.pom(pom.original) (374ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scala-lang/scala-reflect/2.10.0/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.scala-lang/scala-reflect/2.10.0/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
@@ -1644,31 +1967,103 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 [atmos-trace-compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 {atmos-trace-compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1!trace-akka-2.2.1_2.10.pom(pom.original) (263ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 [atmos-trace-compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 [atmos-trace-compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.atmos#trace-scala-2.10.2;1.3.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#trace-scala-2.10.2;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-scala-2.10.2;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.atmos#trace-scala-2.10.2;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.atmos#trace-scala-2.10.2;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#trace-scala-2.10.2;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.atmos#trace-scala-2.10.2;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.atmos#trace-scala-2.10.2;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.atmos#trace-scala-2.10.2;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.atmos#trace-scala-2.10.2;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#trace-scala-2.10.2;1.3.1!trace-scala-2.10.2.pom(pom.original) (209ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#trace-scala-2.10.2;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.atmos#trace-scala-2.10.2;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->com.typesafe.atmos#atmos-trace_2.10;1.3.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#atmos-trace_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-trace_2.10;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.atmos#atmos-trace_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.atmos#atmos-trace_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-trace_2.10;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.atmos#atmos-trace_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.atmos#atmos-trace_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.atmos#atmos-trace_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.atmos#atmos-trace_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-trace_2.10;1.3.1!atmos-trace_2.10.pom(pom.original) (216ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-trace_2.10;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->com.typesafe.atmos#atmos-trace_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#atmos-trace_2.10;1.3.1->com.typesafe.atmos#atmos-event_2.10;1.3.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#atmos-event_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-event_2.10;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.atmos#atmos-event_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.atmos#atmos-event_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-event_2.10;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.atmos#atmos-event_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.atmos#atmos-event_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.atmos#atmos-event_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.atmos#atmos-event_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-event_2.10;1.3.1!atmos-event_2.10.pom(pom.original) (223ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-event_2.10;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#atmos-trace_2.10;1.3.1->com.typesafe.atmos#atmos-event_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#atmos-event_2.10;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#atmos-event_2.10;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
@@ -1683,9 +2078,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.aspectj#aspectjrt;1.7.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.aspectj#aspectjrt;1.7.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.aspectj#aspectjrt;1.7.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.aspectj#aspectjrt;1.7.3[0m
-[0m[[0mdebug[0m] [0m	found org.aspectj#aspectjrt;1.7.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.aspectj#aspectjrt;1.7.3[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.aspectj#aspectjrt;1.7.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.aspectj#aspectjrt;1.7.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom (1.7.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.aspectj#aspectjrt;1.7.3!aspectjrt.pom(pom.original) (520ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.aspectj#aspectjrt;1.7.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->compile][0m
@@ -2042,9 +2450,27 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#atmos-dev;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-dev;1.3.1 {atmos-dev=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.atmos#atmos-dev;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.atmos#atmos-dev;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-dev;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.atmos#atmos-dev;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.atmos#atmos-dev;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.atmos#atmos-dev;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.atmos#atmos-dev;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-dev;1.3.1!atmos-dev.pom(pom.original) (213ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-dev;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->master][0m
@@ -2053,9 +2479,27 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.console#console-solo;1.3.1 [atmos-console->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.console#console-solo;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.console#console-solo;1.3.1 {atmos-console=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.console#console-solo;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.console#console-solo;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.console#console-solo;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.console#console-solo;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.console#console-solo;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.console#console-solo;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.console#console-solo;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.console#console-solo;1.3.1!console-solo.pom(pom.original) (212ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.console#console-solo;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.console#console-solo;1.3.1 [atmos-console->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.console#console-solo;1.3.1 [atmos-console->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.console#console-solo;1.3.1 [atmos-console->master][0m
@@ -2064,9 +2508,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.aspectj#aspectjweaver;1.7.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.aspectj#aspectjweaver;1.7.3 {atmos-weave=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.aspectj#aspectjweaver;1.7.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.aspectj#aspectjweaver;1.7.3[0m
-[0m[[0mdebug[0m] [0m	found org.aspectj#aspectjweaver;1.7.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.aspectj#aspectjweaver;1.7.3[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.aspectj#aspectjweaver;1.7.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.aspectj#aspectjweaver;1.7.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom (1.7.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.pom(pom.original) (544ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.aspectj#aspectjweaver;1.7.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->master][0m
@@ -2075,56 +2532,214 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#atmos-sigar-libs;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-sigar-libs;1.3.1 {atmos-sigar=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.atmos#atmos-sigar-libs;1.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.atmos#atmos-sigar-libs;1.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-sigar-libs;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.atmos#atmos-sigar-libs;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.typesafe.atmos#atmos-sigar-libs;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.atmos#atmos-sigar-libs;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: found md file for com.typesafe.atmos#atmos-sigar-libs;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-sigar-libs;1.3.1!atmos-sigar-libs.pom(pom.original) (209ms)[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/home/bryan/akka-clustering/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.atmos#atmos-sigar-libs;1.3.1 in Typesafe Releases[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akka-clustering_2.10;0.1->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->master][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/bryan/akka-clustering/target/resolution-cache/default/akka-clustering_2.10/0.1/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-contrib_2.10;2.2.1!akka-contrib_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.10;2.2.1!akka-testkit_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-kernel_2.10;2.2.1!akka-kernel_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.1!akka-slf4j_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.7!logback-classic.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource#sigar;1.6.4!sigar.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.amazonaws#aws-java-sdk;1.4.2.1!aws-java-sdk.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.1!akka-remote_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.10;2.2.1!akka-cluster_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.1!akka-actor_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.6.6.Final!netty.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.2.1/akka-contrib_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-contrib_2.10;2.2.1!akka-contrib_2.10.jar (769ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.10/2.2.1/akka-testkit_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.10;2.2.1!akka-testkit_2.10.jar(bundle) (588ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-kernel_2.10;2.2.1!akka-kernel_2.10.jar (377ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.1/akka-slf4j_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.10;2.2.1!akka-slf4j_2.10.jar(bundle) (391ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.7!logback-classic.jar (828ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fusesource/sigar/1.6.4/sigar-1.6.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.fusesource#sigar;1.6.4!sigar.jar (963ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk;1.4.2.1!aws-java-sdk.jar (10422ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.2.1/akka-remote_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.2.1!akka-remote_2.10.jar(bundle) (1724ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.2.1/akka-cluster_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.2.1!akka-cluster_2.10.jar(bundle) (1435ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.1/akka-actor_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.2.1!akka-actor_2.10.jar (3515ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.6.6.Final!netty.jar(bundle) (1467ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar (974ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0!scalabuff-runtime_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.7!logback-core.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/sandrogrzicic/scalabuff-runtime_2.10/1.2.0/scalabuff-runtime_2.10-1.2.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0!scalabuff-runtime_2.10.jar (400ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar (394ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-core;1.0.7!logback-core.jar (716ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] log4j#log4j;1.2.15!log4j.jar (740ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.1!httpclient.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.8.9!jackson-core-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.8.9!jackson-mapper-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.1!httpcore.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar (3324ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-actors;2.10.0!scala-actors.jar (789ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar (3399ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1!trace-akka-2.2.1_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#trace-scala-2.10.2;1.3.1!trace-scala-2.10.2.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjrt;1.7.3!aspectjrt.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#atmos-trace_2.10;1.3.1!atmos-trace_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#atmos-event_2.10;1.3.1!atmos-event_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#atmos-dev;1.3.1!atmos-dev.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.console#console-solo;1.3.1!console-solo.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#atmos-sigar-libs;1.3.1!atmos-sigar-libs.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3060ms :: artifacts dl 160ms[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-akka-2.2.1_2.10/1.3.1/trace-akka-2.2.1_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1!trace-akka-2.2.1_2.10.jar (1438ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/trace-scala-2.10.2/1.3.1/trace-scala-2.10.2-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#trace-scala-2.10.2;1.3.1!trace-scala-2.10.2.jar (462ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.aspectj#aspectjrt;1.7.3!aspectjrt.jar (1239ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-trace_2.10/1.3.1/atmos-trace_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-trace_2.10;1.3.1!atmos-trace_2.10.jar (413ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-event_2.10/1.3.1/atmos-event_2.10-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-event_2.10;1.3.1!atmos-event_2.10.jar (1787ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.3.1/atmos-dev-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-dev;1.3.1!atmos-dev.jar (8556ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.3.1/console-solo-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.console#console-solo;1.3.1!console-solo.jar (12940ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar (3502ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-sigar-libs/1.3.1/atmos-sigar-libs-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.atmos#atmos-sigar-libs;1.3.1!atmos-sigar-libs.jar (3268ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 23020ms :: artifacts dl 66878ms[0m
 [0m[[0mdebug[0m] [0m	report for default#akka-clustering_2.10;0.1 compile produced in /home/bryan/akka-clustering/target/resolution-cache/reports/default-akka-clustering_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akka-clustering_2.10;0.1 runtime produced in /home/bryan/akka-clustering/target/resolution-cache/reports/default-akka-clustering_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akka-clustering_2.10;0.1 test produced in /home/bryan/akka-clustering/target/resolution-cache/reports/default-akka-clustering_2.10-test.xml[0m
@@ -2144,5 +2759,5 @@
 [0m[[0mdebug[0m] [0m	report for default#akka-clustering_2.10;0.1 atmos-console produced in /home/bryan/akka-clustering/target/resolution-cache/reports/default-akka-clustering_2.10-atmos-console.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akka-clustering_2.10;0.1 atmos-weave produced in /home/bryan/akka-clustering/target/resolution-cache/reports/default-akka-clustering_2.10-atmos-weave.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akka-clustering_2.10;0.1 atmos-sigar produced in /home/bryan/akka-clustering/target/resolution-cache/reports/default-akka-clustering_2.10-atmos-sigar.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3060ms resolve - 160ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (23020ms resolve - 66878ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

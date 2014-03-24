@@ -4,7 +4,7 @@
 		module="akka-clustering_2.10"
 		revision="0.1"
 		status="integration"
-		publication="20140320153008"
+		publication="20140324010534"
 	>
 		<description>
 		akka-clustering

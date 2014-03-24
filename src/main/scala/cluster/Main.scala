@@ -21,7 +21,6 @@ import com.typesafe.config.ConfigFactory
 
 class Init extends Bootable {
     val log = LoggerFactory.getLogger(getClass)
-    var conf: Config = _
     var system: ActorSystem = _
     
     def startup(): Unit = {
@@ -49,12 +48,12 @@ class Init extends Bootable {
                       """).withFallback(ConfigFactory.load)
                 }
             }
+        system = ActorSystem("Cluster", conf)
+        
+        val cluster = Cluster(system)
+        
+        system.actorOf(Props[MemberListener], name="nodes")
     }
-
-    system = ActorSystem("Cluster", conf)
-    val cluster = Cluster(system)
-    
-    system.actorOf(Props[MemberListener], name="nodes")
     
     def opsInstances(stackId: String): immutable.IndexedSeq[Instance] = {
         try {

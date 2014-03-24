@@ -8,7 +8,6 @@ import akka.cluster.ClusterEvent._
 import akka.cluster.MemberStatus
 
 class MemberListener extends Actor with ActorLogging {
-
   val cluster = Cluster(context.system)
 
   override def preStart(): Unit =
